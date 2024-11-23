@@ -1,0 +1,7 @@
+fastapi==0.100.0       # FastAPI для создания веб-сервера
+uvicorn==0.23.0       # Сервер ASGI для запуска FastAPI
+transformers==4.33.0  # Hugging Face Transformers для работы с языковыми моделями
+torch==2.0.1          # PyTorch для запуска моделей (если используется)
+sqlalchemy==2.0.20    # Работа с базами данных
+httpx==0.24.1         # HTTP-клиент для запросов
+python-dotenv==1.0.0  # Работа с файлами .env для хранения ключей API
